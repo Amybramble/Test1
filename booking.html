@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Snazzy Paws Grooming</title>
+    <link rel="stylesheet" href="Resources/styles.min.css">
+    <link rel="icon" href="Resources/Images/PawsLogo.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="Resources/Images/PawsLogo.png" alt="Snazzy Paws Grooming Logo">
+        </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="booking.html" class="book-now-btn">Book Now</a>
+    </header>
+
+    <!-- Snazzy Paws Section -->
+    <section class="snazzy-paws" id="snazzy-paws-section">
+        <div class="snazzy-paws-container">
+            <div class="heading-container">
+                <div class="heading-text">
+                    <h2>Book an Appointment</h2>
+                </div>
+            </div>
+
+            <!-- Blurb -->
+            <div class="snazzy-blurb">
+                <p>Booking your grooming appointment is easy! Simply fill out the form below with your details, and we'll get in touch to confirm your booking. We're excited to pamper your furry friend and provide them with the best grooming experience!</p>
+            </div>
+        </div>
+    </section>
+
+    <form>
+        <h3>Owner and Dog Information</h3> <!-- New Header inside the form -->
+
+        <label for="owner">Owner’s Name:</label>
+        <input type="text" id="owner" required>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" required>
+
+        <label for="dog">Dog’s Name:</label>
+        <input type="text" id="dog" required>
+
+        <label for="breed">Breed:</label>
+        <input type="text" id="breed" required>
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" required>
+
+        <button type="submit">Submit</button>
+    </form>
+    <footer>
+        <h4><strong>Opening Hours: Monday - Saturday: 9:00 AM - 5:00 PM / Sunday: Closed</strong></h4>
+        <div class="social-media-links">
+            <a href="https://facebook.com" target="_blank" class="social-icon" aria-label="Visit our Facebook page">
+                <img src="Resources/Images/facebook.png" alt="Facebook logo">
+            </a>
+            <a href="https://twitter.com" target="_blank" class="social-icon" aria-label="Visit our Twitter page">
+                <img src="Resources/Images/twitter.png" alt="Twitter logo">
+            </a>
+            <a href="https://instagram.com" target="_blank" class="social-icon" aria-label="Visit our Instagram page">
+                <img src="Resources/Images/instagram.png" alt="Instagram logo">
+            </a>
+            <a href="https://linkedin.com" target="_blank" class="social-icon" aria-label="Visit our LinkedIn page">
+                <img src="Resources/Images/linkedin.png" alt="LinkedIn logo">
+            </a>
+        </div>
+    </footer>
+
+    <script src="Resources/hamburger.js"></script>
+
+</body>
+</html>
